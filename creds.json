@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "cakemonbot",
+  "private_key_id": "1eb8fcdf35ae4587b38cf08e07eb5d4ce0256907",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCpOgc/fGwiv418\nIQ5dA7ig8LfBCg9YEp1HkkbQNgTHPHplmZPjWeEFKmP8+lf43X2F4RxUKcd9hF6n\nQXavyhpDHV+EvdW5Srq4VsFsKBRrop/xlXEQIXXutlrelUpwbRvnQM2Imk6wPz0H\na6R1Sf60mQ24PZS9xioBDxog6qnzxB/c0+VgmzV0UkwZHlCJCto/arsI9wPhW+/5\nDdIyad13tV8mRAlZ/VWLmfqlhmPBs2gIVK2EO2U+LUsYAAZVpJ5KfSf+gM6LuLRH\njLpUAXSZEmWoesdCMx6SEjtDMmPflge9+esQgmvZCyLufFO5WRT7tyjt4R2v+vNK\nJsf3WtDtAgMBAAECggEAGZrmSi9X0fbSKsQk/w2XQSwbCZzYOdcbMB9MZ/2nFxmq\nBWHJntP/Iv/JKu0aztTTRM9iW25fjmOEdOHdWkzbUL4K3AljOLWQxLVFGp8tM89i\nobRJwWCRY7dOJDFKQZzouhgJNqWZHrwlePrLDVTPCAwZJ4A912xlTPgNgonZ1usI\nwY+EcVknMkSTrugy5H5t9cG/66lQmkOPi3nG0qA/Bt7Yo9Tp9UYlC2VjZJts34n1\n4gm8GJ07/RvbSQVa/aP6WmXHNHIWJGO7IGrMaRi6iEWaTxYTGOBj0QSk1YW9zSml\nC5ondGPC+3MjoCC5KYV0wh+hNdLc0NEwCo565dPN+wKBgQDZUpAs4SVrK3sQGRCU\nLdhGk883GbRxs4O9wnns1wE+td20Q/5pHmZ9ajuLgu42fxBRb4C6ufwGav1BxMPs\nOSHnlr30/puVw9kMKHwHvBSdxAqqlP3bMExPTQ06/Xl6sDFfWJ4A965lY1y6XbIP\ni4Yt5dzQRSppaf9XAZ8hAXbuKwKBgQDHWCtXXxEOwHINbYOY5HSHyAe/BI6L1tAo\nxaThNjSWZfTaS6LTB8TKDhcNhxOgjZc7YHe2IS83HETzUd3/G4R5Qgj3jkheFgt2\nZSQ8i9bnoUlKHIkL/SiPIY2XS04pApcVtqmovddb3i3CStPCYFSj5WPHslqvwVIc\nsTXtWp3JRwKBgQCCa1v+svcjw6pM1N3wLzsVz+qRJKn3ekXbgXRuP/GNUtNENXHe\nX9Id/bzSUrbmmYaPeJ0GckrfByIJcC4r+3VvaDWDa7CvRiNheoJEmgi9TUMhb9yQ\nyAFjrdf8yNU4XbijgakA56MPUXv6k/QiBBd4P/QuQPPc4zHLYzu+MQTQlQKBgDpS\nW2vWjoEIYNX44nWK8WUAavPB+4qCMKidGp4hY8VU0wxC8MJZFYQgFzKIAIAKrOJc\nWOnaT5wKE0o0+4Q1os5vOXxkDlwoivX6pV1pdFiUYYLjUl1FleY6ZNiM2bM55MYf\niQercySXnj+n8Mh/soO5CzZTwiCFqOZoGmT1DBDlAoGBALtMejAA2byJhFZSHfBb\nGim2z6596RFOdY6cXoJtGFNGzbLLRDpN+bGdrLUPy0qkpDVboMmVWfN4h+6Vdv7B\nU6iw+QEjNOtR9JiFDgp8DXUcyM2jSOPlbKACAcyM6AYG09/Yfrjgjpx1E07IQxXo\nECoNDgSubJv93ugItfUDfsc5\n-----END PRIVATE KEY-----\n",
+  "client_email": "cakemonbot@cakemonbot.iam.gserviceaccount.com",
+  "client_id": "112989585876633455844",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/cakemonbot%40cakemonbot.iam.gserviceaccount.com"
+}
