@@ -3,8 +3,8 @@ from datetime import datetime, timedelta
 import json
 import time
 now = datetime.now().strftime("%H")
-while(now!="8"):
-    print(now)
+while(now!="00" and now!="24"):
+    #print(now)
     time.sleep(60)
     now = datetime.now().strftime("%H")
 print('end')
