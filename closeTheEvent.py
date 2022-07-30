@@ -17,3 +17,5 @@ newData=sh.worksheet('title','WeightTest')
 oldData=sh.worksheet('title','CakemonDataTest')
 newWeight=newData.get_col(2,include_tailing_empty=False)
 oldData.update_col(2, values=newWeight, row_offset=0)
+while(True):
+    time.sleep(3600)
