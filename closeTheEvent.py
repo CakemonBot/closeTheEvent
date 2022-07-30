@@ -6,7 +6,7 @@ now = datetime.utcnow().strftime("%H")
 ''''''
 while(now!="00" and now!="24"):
     #print(now)
-    time.sleep(600)
+    time.sleep(60)
     now = datetime.utcnow().strftime("%H")
 print('end')
 
