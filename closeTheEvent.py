@@ -4,7 +4,7 @@ import json
 import time
 now = datetime.utcnow().strftime("%H")
 
-while(now!="11"):
+while(now!="00"):
     print(now)
     time.sleep(60)
     now = datetime.utcnow().strftime("%H")
