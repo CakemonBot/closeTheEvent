@@ -13,5 +13,5 @@ while(True):
     List=testData.get_col(1,include_tailing_empty=False)
     Place= len(List)
     testData.add_rows(1)
-    testData.update_row(userPlace+1, values=["0"], col_offset=0)
+    testData.update_row(Place+1, values=["0"], col_offset=0)
     time.sleep(60)
