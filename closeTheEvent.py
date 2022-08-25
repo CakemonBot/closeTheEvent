@@ -2,20 +2,16 @@ import pygsheets
 from datetime import datetime, timedelta
 import json
 import time
-now = datetime.utcnow().strftime("%H")
-
-while(now!="00"):
-    print(now)
-    time.sleep(600)
-    now = datetime.utcnow().strftime("%H")
-print('end')
 
 gc = pygsheets.authorize(service_file='./creds.json')
 survey_url = 'https://docs.google.com/spreadsheets/d/1QwnPezCF8T_TJgY9C0vTa_lykLgXF2Y-WEYPISwRZkA/edit?fbclid=IwAR2oDcXlmmfvC90cSgog-rU7nYjDrpBY6chkcmjxoyan-lS0zdpPSWJBw1k#gid=1852814271'
 sh = gc.open_by_url(survey_url)
-newData=sh.worksheet('title','WeightTest')
-oldData=sh.worksheet('title','CakemonData')
-newWeight=newData.get_col(2,include_tailing_empty=False)
-oldData.update_col(2, values=newWeight, row_offset=0)
+testData=sh.worksheet('title','test')
+
+
 while(True):
-    time.sleep(3600)
+    List=testData.get_col(1,include_tailing_empty=False)
+    Place= len(List)
+    testData.add_rows(1)
+    userData.update_row(userPlace+1, values=["0"], col_offset=0)
+    time.sleep(60)
